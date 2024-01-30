@@ -1,0 +1,46 @@
+@mixin button(
+  $padding: 10px 20px,
+  $margin: 5px,
+  $font-size: 16px,
+  $border-radius: 3px,
+  $bg-color: #ca4c24,
+  $color: #2d2d48,
+  $font-color: white
+) {
+  padding: $padding;
+  border-radius: $border-radius;
+  background: $bg-color;
+  font-size: $font-size;
+  color: $font-color;
+}
+.btn {
+  @include button;
+}
+button {
+  margin: 10px 7px;
+  padding: 5px 5px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #2d2d48;
+  border: 2px whitesmoke solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+}
+
+.btn:before {
+  background: #2d2d48;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+body {
+  background-color: #2d2d48;
+  margin: 0;
+  color: whitesmoke;
+}
