@@ -26,10 +26,12 @@ button {
   border: 2px whitesmoke solid;
   border-radius: 4px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .btn:hover {
   background-color: whitesmoke;
+  color: black !important;
 }
 
 .btn:before {
@@ -37,10 +39,41 @@ button {
   bottom: 0;
   left: 0;
   right: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  transition: top 0.09s ease-in;
 }
 
 body {
   background-color: #2d2d48;
   margin: 0;
-  color: whitesmoke;
+  color: white;
+}
+
+section {
+  justify-content: space-between;
+  background: #f1f7fa;
+  padding: 3em !important;
+  margin: 0;
+  color: black;
+}
+
+#section2 {
+  background-color: rgb(241 247 250);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#colname {
+  opacity: 0.3;
+  filter: grayscale(100%);
+  transition: filter 0.1s ease-in-out;
+}
+
+#colname:hover {
+  opacity: 1;
+  filter: grayscale(0%);
 }
