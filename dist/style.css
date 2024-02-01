@@ -37,6 +37,11 @@ button {
   transition: top 0.09s ease-in;
 }
 
+#button {
+  background-color: whitesmoke;
+  color: black;
+}
+
 body {
   background-color: #2d2d48;
   margin: 0;
@@ -52,9 +57,25 @@ section {
 }
 
 #section2 {
-  background-color: rgb(241, 247, 250);
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-color: aliceblue;
+  color: black;
+  margin: 0;
+  padding-bottom: 7%;
+}
+
+#section5b {
+  background-color: white;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#section5b h1 {
+  font-weight: bold;
+  padding-bottom: 2%;
 }
 
 #colname {
@@ -66,4 +87,28 @@ section {
 #colname:hover {
   opacity: 1;
   filter: grayscale(0%);
+}
+
+#LeadingStats {
+  background-color: aliceblue;
+  color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 7%;
+}
+
+#LeadingBank {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+#bulletpoints {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2d48;
 }/*# sourceMappingURL=style.css.map */
