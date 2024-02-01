@@ -111,4 +111,10 @@ section {
   justify-content: center;
   align-items: center;
   background-color: #2d2d48;
+}
+
+.Schedule {
+  background-image: linear-gradient(to right, #e98453, #e98484);
+  margin-top: 0px;
+  padding: 60px 60px;
 }/*# sourceMappingURL=style.css.map */
