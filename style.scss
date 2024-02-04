@@ -15,6 +15,7 @@
 }
 .btn {
   @include button;
+  transition: all 400ms ease;
 }
 button {
   margin: 10px 7px;
@@ -32,6 +33,8 @@ button {
 .btn:hover {
   background-color: whitesmoke;
   color: black !important;
+  top: 100%;
+  fill: #f1f7fa;
 }
 
 .btn:before {
@@ -44,7 +47,7 @@ button {
   right: 0;
   top: 100%;
   z-index: -1;
-  transition: top 0.09s ease-in;
+  transition: top 400ms ease-in;
 }
 
 #button {
